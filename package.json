@@ -7,7 +7,7 @@
     "postinstall": "npx playwright install",
     "dev": "astro dev",
     "start": "astro dev",
-    "deploy": "astro build && gh-pages -d dist",
+    "deploy": "astro build && touch dist/.nojekyll && gh-pages -d dist --dotfiles",
     "generate-pdf": "node ./scripts/generate-pdf.js",
     "generate-pdf:ci": "PDF_VIEW=true start-server-and-test http://localhost:4321 generate-pdf",
     "prebuild": "astro check && tsc --noEmit",

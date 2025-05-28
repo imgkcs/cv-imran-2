@@ -11,4 +11,6 @@ export default defineConfig({
       external: ['svgo'],
     },
   },
+  site: 'https://imgkcs.github.io/cv-imran-2',
+  base: '/cv-imran-2/',
 });
