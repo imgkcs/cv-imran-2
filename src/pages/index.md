@@ -5,7 +5,7 @@ layout: ../layouts/Minimalist.astro
 pdfLink: resume.pdf
 ---
 
-# Richard Hendriks
+# İmran
 
 **Programmer**
 
